@@ -18,7 +18,6 @@ const state = {
 };
 
 $( _ => {
-  alert('carga');
   const root = $('#root');
   render(root);
   state.doRender = render.bind(null, root);
